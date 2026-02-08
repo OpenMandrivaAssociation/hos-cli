@@ -1,7 +1,7 @@
 %global rootpath %{_datadir}/hos
 
 Name:     hos-cli
-Version:  0.1.20260128
+Version:  0.1.20260208
 Release:  1
 Summary:  HouseOfSoftware CLI
 License:  -
@@ -9,7 +9,7 @@ URL:      https://git.houseof.software/HouseOfSoftware/cli
 
 BuildArch:  noarch
 
-Source0:  %{name}-%{version}.tar.gz
+Source0:  %{name}-%{version}.tar.zst
 
 Requires:  bash
 Requires:  car
